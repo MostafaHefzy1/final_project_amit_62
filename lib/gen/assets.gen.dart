@@ -36,6 +36,9 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/filter.png
+  AssetGenImage get filter => const AssetGenImage('assets/images/filter.png');
+
   /// File path: assets/images/onboarding1.svg
   String get onboarding1 => 'assets/images/onboarding1.svg';
 
@@ -45,8 +48,13 @@ class $AssetsImagesGen {
   /// File path: assets/images/onboaring3.svg
   String get onboaring3 => 'assets/images/onboaring3.svg';
 
+  /// File path: assets/images/started_screen.png
+  AssetGenImage get startedScreen =>
+      const AssetGenImage('assets/images/started_screen.png');
+
   /// List of all assets
-  List<String> get values => [onboarding1, onboarding2, onboaring3];
+  List<dynamic> get values =>
+      [filter, onboarding1, onboarding2, onboaring3, startedScreen];
 }
 
 class Assets {

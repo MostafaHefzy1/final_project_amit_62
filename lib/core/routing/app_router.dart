@@ -5,7 +5,8 @@ import 'package:final_project_amit62/features/auth/ui/forget_password/forget_pas
 import 'package:final_project_amit62/features/auth/ui/login/login_screen.dart';
 import 'package:final_project_amit62/features/auth/ui/register/register_screen.dart';
 import 'package:final_project_amit62/features/home/ui/home_screen.dart';
-import 'package:final_project_amit62/features/on_boarding/ui/on_boarding_screen.dart';
+import 'package:final_project_amit62/features/introducation/home_started_screen/home_started_screen.dart';
+import 'package:final_project_amit62/features/introducation/on_boarding/ui/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -29,6 +30,8 @@ class AppRouter {
         ));
       case Routes.forgetPasswordScreen:
         return pageRouteBuilder(screen: const ForgetPasswordScreen());
+      case Routes.homeStartedScreen:
+        return pageRouteBuilder(screen: HomeStartedScreen());
       case Routes.homeScreen:
         return pageRouteBuilder(screen: HomeScreen());
     }

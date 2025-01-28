@@ -1,3 +1,5 @@
+import 'package:final_project_amit62/features/home/ui/home_screen.dart';
+
 import '../../../../core/app_imports/app_import.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -14,8 +16,30 @@ class LoginScreen extends StatelessWidget {
         }
 
         if (state is LoginSuccessState && state.responseModel.status == true) {
-          Navigator.pushNamedAndRemoveUntil(
-              context, Routes.homeScreen, (_) => false);
+          // Navigator.pushNamedAndRemoveUntil(
+          //     context, Routes.homeScreen, (_) => false);
+
+
+
+
+
+
+
+
+
+
+
+
+          // Routes.homeScreen  
+          // case Routes.homeScreen
+          //      MaterialPageRoute(builder: (context) => HomeScreen());
+
+          Navigator.pushNamed(
+              context,
+              Routes.homeStartedScreen);
+       
+       
+       
         }
       },
       builder: (context, state) {

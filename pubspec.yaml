@@ -62,7 +62,14 @@ dependencies:
   modal_bottom_sheet: ^3.0.0
   # Toast Library for Flutter, Easily create toast messages
   fluttertoast: ^8.2.10
+
+  # Flutter plugin for reading and writing simple key-value pairs
   shared_preferences: ^2.4.0
+
+  # Flutter Secure Storage provides API to store data in secure storage.
+  flutter_secure_storage: ^9.2.4
+
+
 
 dev_dependencies:
   flutter_test:

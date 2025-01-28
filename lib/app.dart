@@ -1,3 +1,6 @@
+import 'package:final_project_amit62/features/home/ui/home_screen.dart';
+import 'package:flutter/services.dart';
+
 import 'core/app_imports/app_import.dart';
 
 class MyApp extends StatelessWidget {
@@ -15,10 +18,12 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Demo',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
+         
             scaffoldBackgroundColor: AppColors.whiteColor,
             // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
+          // home: HomeScreen(),
           // initialRoute: SharedprefHelper.getData(key: "token") == null
           //     ? Routes.loginScreen
           //     : Routes.homeScreen,

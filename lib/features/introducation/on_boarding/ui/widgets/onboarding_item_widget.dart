@@ -1,4 +1,4 @@
-import '../../../../core/app_imports/app_import.dart';
+import '../../../../../core/app_imports/app_import.dart';
 
 class OnboardingItemWidget extends StatelessWidget {
   final String title;

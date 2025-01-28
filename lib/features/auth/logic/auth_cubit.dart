@@ -38,7 +38,7 @@ class AuthCubit extends Cubit<AuthState> {
   }
 
   saveTokenAfterLoginAndRegister(String token) async {
-    SharedprefHelper.saveData(key: "token", value: token);
+    SharedprefHelper.setSecuredString(key: "token", value: token);
     await DioHelper.initDioHelper();
   }
 

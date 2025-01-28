@@ -1,6 +1,6 @@
-import 'package:final_project_amit62/features/on_boarding/ui/widgets/app_bar_onboarding_widget.dart';
+import 'package:final_project_amit62/features/introducation/on_boarding/ui/widgets/app_bar_onboarding_widget.dart';
 
-import '../../../core/app_imports/app_import.dart';
+import '../../../../core/app_imports/app_import.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
